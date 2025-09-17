@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -29,7 +31,7 @@ main {
 
 aside {
   width: 25%;
-  background: #444;
+  background: #d0d0d0;
   padding: 15px;
   border-radius: 8px;
 }
@@ -49,12 +51,17 @@ aside ul li a {
   display: block;
   padding: 10px;
   border-radius: 6px;
-  background: #666;
+  background: #004aad;
   transition: 0.3s;
 }
 
 aside ul li a:hover {
-  background: #333;
+  background: #5466ec;
+  color: #d0d0d0;
+}
+
+i {
+  margin-right: 10px;
 }
 
 section {
@@ -69,7 +76,7 @@ section {
 
 footer {
   margin: 20px;
-  background: #222;
+  background: #004aad;
   color: white;
   text-align: center;
   padding: 15px;
